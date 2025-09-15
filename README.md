@@ -2,7 +2,7 @@
 This is where I'll submit my HTML work for CSIT121
 <h3>Practice Page</h3>
 <ul>
-  <li><a href="https://db-downing.github.io/CSIT121/practice/demo.html"></a>Demo</li>
+  <li><a href="https://db-downing.github.io/CSIT121/practice/demo.html">Demo</a></li>
 </ul>
 <h2>Lab Assignments</h2>
 <ol>
