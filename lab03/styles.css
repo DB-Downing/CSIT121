@@ -57,7 +57,7 @@ p {
     border-left: #007523 4px solid;
 }
 
-#publish p {
+.publish p {
     background-color: #23007515;
     font-size: 0.7em;
     color: #007523;
@@ -120,4 +120,5 @@ footer p {
     margin-right: auto;
     max-width: fit-content;
     border-radius: 9px;
+
 }
