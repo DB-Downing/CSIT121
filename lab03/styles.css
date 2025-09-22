@@ -58,7 +58,7 @@ p {
     box-shadow: #0000003d 2px 2px 2px;
 }
 
-.publish p{
+.publish p {
     background-color: #23007515;
     font-size: 0.7em;
     color: #007523;
@@ -121,4 +121,5 @@ footer p {
     margin-right: auto;
     max-width: fit-content;
     border-radius: 9px;
+
 }
