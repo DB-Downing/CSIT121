@@ -55,7 +55,6 @@ p {
     border-bottom: #007523 2px solid;
     border-top: #007523 2px solid;
     border-left: #007523 4px solid;
-    box-shadow: #0000003d 2px 2px 2px;
 }
 
 .publish p {
@@ -123,4 +122,5 @@ footer p {
     border-radius: 9px;
 
 }
+
 
