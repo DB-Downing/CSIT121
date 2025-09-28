@@ -1,0 +1,191 @@
+body {
+    background-image: url('bluesky.jpg');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #71b6ff;
+    color: #002731;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #3dc8eb88;
+    padding: 10px;
+    border-radius: 8px;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
+    text-shadow: #ffffff 1px 1px 5px;
+    box-shadow: #2c3e50 2px 5px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: auto;
+    max-width: 900px;
+}
+
+h2 {
+    background-color: #71b6ff;
+    color: #002731;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #3dc8eb88;
+    padding: 10px;
+    border-radius: 8px;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
+    text-shadow: #ffffff 1px 1px 5px;
+    box-shadow: #2c3e50 2px 5px 15px;
+    max-width: 600px;
+    min-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    background-color: #71b6ff;
+    color: #002731;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    margin: 1px;
+    padding: 20px;
+    border-radius: 8px;
+    border: #002731 3px solid;
+    max-width: 280px;
+    margin-left: 40px;
+}
+
+.image-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.image-description h3 {
+    background-color: #71b6ff;
+    color: #002731;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    text-shadow: #ffffff 1px 1px 5px;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 8px;
+    border: #002731 2px solid;
+    max-width: 280px;
+}
+
+.image-description p {
+    color: #002731;
+    background-color: #04aa6d63;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px;
+    border-radius: 8px;
+    border: #00273136 2px solid;
+    text-shadow: #ffffff 1px 1px 5px;
+    box-shadow: #2c3e50 2px 2px 15px;
+}
+
+
+section p {
+    color: #002731;
+    background-color: #04aa6d63;
+    font-size: 18px;
+    line-height: 2.0;
+    margin: 10px;
+    border-radius: 8px;
+    border: #00273136 2px solid;
+    margin-left: 80px;
+    margin-right: 80px;
+    min-width: auto;
+    padding: 10px;
+    box-shadow: #2c3e50 2px 2px 15px;
+    text-shadow: #ffffff 1px 1px 5px;
+}
+
+nav {
+    background-color: #39adca;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: #2c3e50 2px 5px 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.topnav a {
+    color: #002731;
+    text-align: center;
+    padding: 14px 13px;
+    padding-left: auto;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Arial', sans-serif;
+    display: inline-block;
+}
+
+.topnav a.current {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 10px;
+    box-shadow: #2c3e50 2px 5px 10px;
+    text-shadow: #ffffff 1px 1px 13px;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background: #002731;
+    margin: 20px 0;
+    box-shadow: #2c3e50 2px 5px 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: #002731 5px solid;
+    box-shadow: #2c3e50 2px 5px 15px;
+}
+
+.source footer {
+    background-color: #04aa6d41;
+    border-radius: 8px;
+    box-shadow: #2c3e50 2px 2px 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'georgia', sans-serif;
+    color: #002731;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: fit-content;
+    text-shadow: #ffffff 1px 1px 5px;
+}
+.source footer a {
+    color: #3D5AEB;
+    font-style: italic;
+    text-decoration: unset;
+    font-weight: bold;
+}
+
+.copyright footer {
+    background-color: #90c6ff42;
+    border-radius: 8px;
+    color: #002731;
+    font-style: italic;
+    text-decoration: underline;
+    box-shadow: #2c3e50 1px 1px 15px;
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'georgia', sans-serif;
+    font-size: 14px;
+}
