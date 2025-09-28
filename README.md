@@ -9,4 +9,5 @@ This is where I'll submit my HTML work for CSIT121
   <li><a href="https://db-downing.github.io/CSIT121/lab01/aboutme.html">Lab 01</a></li>
   <li><a href="https://db-downing.github.io/CSIT121/lab02/HTML_basics.html">Lab 02</a></li>
   <li><a href="https://db-downing.github.io/CSIT121/lab03/index.html">Lab 03</a></li>
+  <li><a href="https://db-downing.github.io/CSIT121/lab04/index.html">Lab 04</a></li>
 </ol>
