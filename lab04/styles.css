@@ -124,7 +124,6 @@ nav {
     color: #002731;
     text-align: center;
     padding: 14px 13px;
-    padding-left: auto;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Arial', sans-serif;
@@ -188,4 +187,5 @@ img {
     padding-left: 6px;
     font-family: 'georgia', sans-serif;
     font-size: 14px;
+
 }
