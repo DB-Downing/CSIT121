@@ -120,7 +120,7 @@ nav {
     text-align: center;
 }
 
-.topnav a {
+nav a {
     color: #002731;
     text-align: center;
     padding: 14px 13px;
@@ -130,7 +130,7 @@ nav {
     display: inline-block;
 }
 
-.topnav a.current {
+nav a.current {
     background-color: #04AA6D;
     color: white;
     border-radius: 10px;
@@ -189,3 +189,4 @@ img {
     font-size: 14px;
 
 }
+
