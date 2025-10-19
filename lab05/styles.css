@@ -95,7 +95,7 @@ h2 {
 .publish p {
     grid-area: main;
     background-color: #23007515;
-    font-size: 0.9em;
+    font-size: 0.7em;
     color: #007523;
     text-align: center;
     font-style: italic;
@@ -235,6 +235,7 @@ hr {
     }
 
     .publish p {
+        font-size: 0.9em;
         margin-left: 1em;
     }
 
@@ -302,4 +303,5 @@ hr {
     footer {
         margin-top: -1.5em;
     }
+
 }
