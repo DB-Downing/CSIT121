@@ -246,7 +246,7 @@ hr {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
     div {
         grid-template-columns: 1.6fr 2.4fr;
         grid-template-rows: auto auto auto;
@@ -305,4 +305,5 @@ hr {
     }
 
 }
+
 
