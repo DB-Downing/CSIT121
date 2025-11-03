@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Leave Some Feedback!</h1>
+    </header>
+    <nav>
+        <a href="tier-list.html">Tier List</a>
+        <a class="current" href="form.html">Suggestions</a>
+    </nav>
+    <main>
+        <form method="get">
+            <fieldset>
+                <legend>User Information</legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" required><br><br>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required><br><br>
+            </fieldset>
+            
+            <article>
+                <label for="radio">How well do you agree with the rankings?</label><br><br>
+                <input type="radio" id="strongly-agree" name="rating" value="strongly-agree" required>
+                <label for="strongly-agree">Strongly Agree</label><br>
+                <input type="radio" id="Agree" name="rating" value="agree" required>
+                <label for="agree">Agree</label><br>
+                <input type="radio" id="neutral" name="rating" value="neutral" required>
+                <label for="neutral">Neutral</label><br>
+                <input type="radio" id="disagree" name="rating" value="disagree" required>
+                <label for="disagree">Disagree</label><br>
+                <input type="radio" id="strongly-disagree" name="rating" value="strongly-disagree" required>
+                <label for="strongly-disagree">Strongly Disagree</label><br><br>
+
+                <label for="ranking">Which one of the rankings did you disagree with the most?</label><br>
+                <select id="ranking" name="ranking">
+                    <option value="none">No Answer</option>
+                    <option value="arbys">Arby's</option>
+                    <option value="burger-king">Burger King</option>
+                    <option value="checkers">Checkers and Rally's</option>
+                    <option value="chick">Chick-Fil-A</option>
+                    <option value="chipotle">Chipotle</option>
+                    <option value="dairy-queen">Dairy Queen</option>
+                    <option value="dominos">Dominos</option>
+                    <option value="dunkin">Dunkin Donuts</option>
+                    <option value="jimmy-johns">Jimmy Johns</option>
+                    <option value="krispy-kreme">Krispy Creme</option>
+                    <option value="little-ceasers">Little Ceasers </option>
+                    <option value="mcdonalds">McDonalds</option>
+                    <option value="panda-express">Panda Express</option>
+                    <option value="papa-johns">Papa Johns</option>
+                    <option value="popeyes">Popeyes</option>
+                    <option value="shake-shack">Shake Shack</option>
+                    <option value="subway">Subway</option>
+                    <option value="taco-bell">Taco Bell</option>
+                    <option value="wendys">Wendy's</option>
+                </select><br><br>
+
+                <label for="comments">What would you change about the rankings?:</label><br>
+                <textarea name="comments" id="comments" rows="5" required></textarea><br><br>
+
+                <label for="comments">What brands would you add to the rankings?:</label><br>
+                <textarea name="comments" id="comments" rows="5" required></textarea><br><br>
+            </article>
+            <div class="button">
+            <input type="submit" value="Submit"> <input type="reset">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Derrick Boone Downing - CSIT 121</p>
+    </footer>
+</body>
+
+</html>
