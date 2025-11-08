@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About JPG</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>JPG Image Format</h1>
+    </header>
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="png.html">About PNG</a>
+            <a href="jpg.html">About JPG</a>
+            <a href="gif.html">About GIF</a>
+        </div>
+    </nav>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <main>
+        <img src="tiger.jpg" alt="Tiger looking to the right" height="300">
+
+        <section>
+            <div class="image-description">
+                <h3>Image Description</h3>
+                <p>This image is a photograph of a tiger looking to the right. The background is a blurred green and
+                    blue,
+                    indicating water and foliage with a warm, comforting light.</p>
+            </div>
+            <h3>What is JPG and why use it?</h3>
+            <p>JPG (Joint Photographic Experts Group) is a commonly used method of lossy compression for digital images.
+                <br> The reason to use JPG is that it captures a lot of image detail in a relatively small file size,
+                making it ideal for photographs and realistic images on the web.
+                The downside of JPG is that it uses lossy compression, which means that some image quality is sacrificed
+                to reduce file size, and it can not be formatted to be transparent.
+            </p>
+        </section>
+        <div class="source">
+            <footer>
+                <p>Image sources: <a href="https://unsplash.com/photos/brown-tiger-close-up-photo-8Myh76_3M2U"
+                        target="_blank">UnSplash</a>, <a
+                        href="https://www.publicdomainpictures.net/en/view-image.php?image=20081&picture=blue-sky"
+                        target="_blank">Public Domain Pictures</a></p>
+            </footer>
+        </div>
+    </main>
+    <div class="copyright">
+        <footer>
+            <p>&copy; 2025 Derrick Boone Downing - CSIT 121</p>
+        </footer>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>

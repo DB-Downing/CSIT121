@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About PNG</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>PNG Image Format</h1>
+    </header>
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="png.html">About PNG</a>
+            <a href="jpg.html">About JPG</a>
+            <a href="gif.html">About GIF</a>
+        </div>
+    </nav>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <main>
+        <img src="apple.png" alt="Transparent shiny apple" height="300">
+
+        <section>
+            <div class="image-description">
+                <h3>Image Description</h3>
+                <p>This image is a transparent graphic of a red apple with a green leaf and a brown stem. The apple has
+                    a
+                    shiny highlight to the left of its surface, indicating a light source.</p>
+            </div>
+            <h3>What is PNG and why use it?</h3>
+            <p>PNG (Portable Network Graphics) is a raster graphics file format that supports lossless data compression.
+                <br> The reason to use PNG in this instance is that it provides high-quality images with support for
+                transparency. This makes it ideal for web graphics, logos, and images with text.
+                The downside of PNG is that it typically results in larger file sizes compared to JPG, especially for
+                photographs.
+            </p>
+        </section>
+        <div class="source">
+            <footer>
+                <p>Image sources: <a
+                        href="https://pngtree.com/freepng/red-apple-fruit-realistic-transparent_9057112.html"
+                        target="_blank">PNGTree</a>, <a
+                        href="https://www.publicdomainpictures.net/en/view-image.php?image=20081&picture=blue-sky"
+                        target="_blank">Public Domain Pictures</a></p>
+            </footer>
+        </div>
+    </main>
+    <div class="copyright">
+        <footer>
+            <p>&copy; 2025 Derrick Boone Downing - CSIT 121</p>
+        </footer>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>

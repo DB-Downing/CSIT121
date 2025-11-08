@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About GIF</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>GIF Image Format</h1>
+    </header>
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="png.html">About PNG</a>
+            <a href="jpg.html">About JPG</a>
+            <a href="gif.html">About GIF</a>
+        </div>
+    </nav>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <main>
+        <img src="banana.gif" alt="Dancing banana with a face" height="300">
+        <section>
+            <div class="image-description">
+                <h3>Image Description</h3>
+                <p>This image is an animated graphic of a yellow banana with a brown stem. The banana has a smiling face
+                    with eyes and a mouth, and its dancing with its arms and legs moving.</p>
+            </div>
+            <h3>What is GIF and why use it?</h3>
+            <p>GIF (Graphics Interchange Format) is a bitmap image format that supports both static and animated images.
+                <br> The reason to use GIF is that it allows for simple animations and supports transparency, making it
+                ideal for graphics with limited colors.
+                The downside of GIF is that it uses a limited color palette (256 colors), which can result in lower
+                image quality for photographs and complex images.
+            </p>
+        </section>
+        <div class="source">
+            <footer>
+                <p>Image sources: <a href="https://tenor.com/view/banana-cheerer-dance-gif-12899315"
+                        target="_blank">Tenor</a>, <a
+                        href="https://www.publicdomainpictures.net/en/view-image.php?image=20081&picture=blue-sky"
+                        target="_blank">Public Domain Pictures</a></p>
+            </footer>
+        </div>
+    </main>
+    <div class="copyright">
+        <footer>
+            <p>&copy; 2025 Derrick Boone Downing - CSIT 121</p>
+        </footer>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
