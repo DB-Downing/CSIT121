@@ -1,0 +1,198 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 0.5em;
+    text-align: center;
+    overflow: hidden;
+    background-color: #05113e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    line-height: 3.5em;
+    color: white;
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+nav a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+    background-color: #61b4dc;
+    border-radius: 5px;
+}
+
+header {
+    background-image: url("horizon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 0.5em;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+main {
+    border-bottom: #05113e 8px solid;
+    border-left: #05113e 8px solid;
+    border-right: #05113e 8px solid;
+    padding: 0.5em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main p {
+    color: #fcfcfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-indent: 30px;
+    line-height: 1.8;
+    padding: 0.2em 0.8em;
+}
+
+main ul {
+    color: #fcfcfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    text-indent: 20px;
+    line-height: 1.8;
+    padding: 0.2em 0.8em;
+    list-style-type: lower-roman;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+main li {
+    overflow-wrap: break-word;
+    padding-left: 1em;
+    padding-bottom: 1.4em;
+}
+
+main a {
+    color: #61b4dc;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: #fcfcfc8e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
+}
+
+@media (min-width: 750px) {
+    body {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "main main"
+            "footer footer";
+    }
+
+    header {
+        grid-area: header;
+        background-image: url("horizon-large.jpg");
+        background-size: cover;
+        height: 150px;
+        margin-left: 20%;
+    }
+
+    header h1 {
+        font-size: 2.7em;
+        padding-left: 50px;
+    }
+
+    nav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #000000;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    nav a {
+        padding: 20px 6px 20px 6px;
+        text-decoration: none;
+        font-size: 1.6em;
+        color: #b3b3b3;
+        display: block;
+    }
+
+    nav a:hover {
+        color: #f1f1f1;
+    }
+
+    main {
+        grid-area: main;
+        margin-left: 215px;
+    }
+
+    footer {
+        grid-area: footer;
+        margin-left: 200px;
+    }
+
+    main p {
+        font-size: 1.4em;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        background-image: url("horizon-large.jpg");
+        height: 200px;
+        margin-left: 290px;
+    }   
+
+    header h1 {
+        font-size: 3.5em;
+    }
+    nav {
+        width: 250px;
+    }
+
+    nav a {
+        font-size: 2em;
+    }
+    main {
+        margin-left: 290px;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 2em;
+    }
+}
