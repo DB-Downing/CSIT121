@@ -15,4 +15,5 @@ This is where I'll submit my HTML work for CSIT121
   <li><a href="https://db-downing.github.io/CSIT121/lab07/tier-list.html">Lab 07</a></li>
   <li><a href="https://db-downing.github.io/CSIT121/lab08/index.html">Lab 08</a></li>
   <li><a href="https://db-downing.github.io/CSIT121/lab09/index.html">Lab 09</a></li>
+  <li><a href="https://db-downing.github.io/CSIT121/lab10/geolocation.html">Lab 10</a></li>
 </ol>
