@@ -496,7 +496,7 @@ button {
     border-radius: 8px;
     border: 2px solid #4A90D9;
     background: #4a8fd993;
-    padding: 1em;
+    padding: 12px;
     color: #000000;
     font-weight: 700;
     cursor: pointer;
@@ -697,3 +697,4 @@ footer p a:hover {
         grid-template-columns: 1fr 1fr;
     }
 }
+
