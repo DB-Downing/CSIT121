@@ -477,6 +477,7 @@ small.hint {
     border: 1px solid var(--border);
     border-radius: 80px;
     background: #e7e7e7;
+    cursor: pointer;
 }
 
 .confirm {
@@ -485,6 +486,7 @@ small.hint {
     padding: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .actions {
@@ -696,4 +698,5 @@ footer p a:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
 }
