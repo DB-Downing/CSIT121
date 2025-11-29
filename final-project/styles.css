@@ -643,7 +643,8 @@ footer p a:hover {
     }
 
     button {
-        font-size: 90%;
+        padding: 1.1em;
+        font-size: 80%;
         gap: 30px;
     }
 }
@@ -697,6 +698,7 @@ footer p a:hover {
         grid-template-columns: 1fr 1fr;
     }
 }
+
 
 
 
